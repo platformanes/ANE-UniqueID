@@ -1,0 +1,32 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+  <id>cc.czq.anes.uniqueid</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+    <platform name="iPhone-ARM">
+        <applicationDeployment>
+            <nativeLibrary>libUniqueID.a</nativeLibrary>
+            <initializer>UniqueIDExtInitializer</initializer>
+            <finalizer>UniqueIDExtFinalizer</finalizer>
+        </applicationDeployment>
+    </platform>
+    <platform name="iPhone-x86">
+        <applicationDeployment>
+            <nativeLibrary>libUniqueID.a</nativeLibrary>
+            <initializer>UniqueIDExtInitializer</initializer>
+            <finalizer>UniqueIDExtFinalizer</finalizer>
+        </applicationDeployment>
+    </platform>
+
+    <!--<platform name="Android-ARM">
+        <applicationDeployment> 
+            <nativeLibrary>libUniqueID.jar</nativeLibrary>
+            <initializer>cc.czq.anes.UniqueIDExtension</initializer>
+            <finalizer>cc.czq.anes.UniqueIDExtension</finalizer>
+        </applicationDeployment> 
+    </platform>-->
+    
+    <platform name="default"> 
+        <applicationDeployment/> 
+    </platform> 
+  </platforms>
+</extension>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" applicationDPI="160">
+	
+	<fx:Script>
+		<![CDATA[
+			import cc.czq.anes.UniqueID;
+			protected function button1_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				txt.appendText("mac:\n");
+				txt.appendText(UniqueID.getMacAddress() + "\n");
+				txt.appendText("idfa:\n");
+				txt.appendText(UniqueID.getIDFA() + "\n");
+				txt.appendText("openudid:\n");
+				txt.appendText(UniqueID.getOpenUDID() + "\n");
+			}
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	<s:Button x="10" y="10" width="300" label="呵呵" click="button1_clickHandler(event)"/>
+	<s:TextArea id="txt" x="10" y="61" height="300"/>
+</s:Application>

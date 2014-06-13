@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4FC65164-026C-40B3-9259-E0CD017B029A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UniqueID</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6295755A-FB97-4927-942D-8EC498D2A808</key>
+		<string>https://github.com/platformanes/ANE-UniqueID.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/UniqueID/UniqueID.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6295755A-FB97-4927-942D-8EC498D2A808</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/platformanes/ANE-UniqueID.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6295755A-FB97-4927-942D-8EC498D2A808</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6295755A-FB97-4927-942D-8EC498D2A808</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ANE-UniqueID</string>
+		</dict>
+	</array>
+</dict>
+</plist>
