@@ -10,7 +10,7 @@
 #include <sys/sysctl.h>
 #include <net/if.h>
 #include <net/if_dl.h>
-#include "OpenUDID.h"
+//#include "OpenUDID.h"
 #import <UIKit/UIKit.h>
 #import <AdSupport/AdSupport.h>
 
@@ -58,7 +58,7 @@ void UniqueIDContextInitializer(void* extData, const uint8_t* ctxType, FREContex
     {
         MAP_FUNCTION(getMacAddress, NULL),
         MAP_FUNCTION(getIDFA, NULL),
-        MAP_FUNCTION(getUDID, NULL),
+//        MAP_FUNCTION(getUDID, NULL),
     };
     
     *numFunctionsToTest = sizeof(func) / sizeof(FRENamedFunction);
@@ -100,13 +100,13 @@ ANE_FUNCTION(getIDFA)
     return result;
     
 }
-ANE_FUNCTION(getUDID)
+/*ANE_FUNCTION(getUDID)
 {
     FREObject result;
     NSString* openUDID = [OpenUDID value];
     FRENewObjectFromUTF8( strlen((const char*)[openUDID UTF8String]) + 1, (const uint8_t*)[openUDID UTF8String], &result);
     return result;
-}
+}*/
 
 
 // Return the local MAC addy

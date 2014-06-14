@@ -41,6 +41,6 @@ void UniqueIDContextFinalizer(FREContext ctx);
 
 ANE_FUNCTION(getMacAddress);
 ANE_FUNCTION(getIDFA);
-ANE_FUNCTION(getUDID);
+//ANE_FUNCTION(getUDID);
 
 static NSString * getMacaddress();

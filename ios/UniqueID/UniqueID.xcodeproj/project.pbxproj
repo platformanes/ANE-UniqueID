@@ -22,8 +22,6 @@
 		61323AED194AF9EA00929575 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61323AEC194AF9EA00929575 /* AVFoundation.framework */; };
 		61323AEF194AF9EA00929575 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61323AEE194AF9EA00929575 /* Security.framework */; };
 		61323AF5194AF9EA00929575 /* UniqueID.m in Sources */ = {isa = PBXBuildFile; fileRef = 61323AF4194AF9EA00929575 /* UniqueID.m */; };
-		61323AFD194AFC2E00929575 /* OpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 61323AFB194AFC2E00929575 /* OpenUDID.h */; };
-		61323AFE194AFC2E00929575 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 61323AFC194AFC2E00929575 /* OpenUDID.m */; };
 		61323B00194B073100929575 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61323AFF194B073100929575 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +44,6 @@
 		61323AF2194AF9EA00929575 /* UniqueID-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UniqueID-Prefix.pch"; sourceTree = "<group>"; };
 		61323AF3194AF9EA00929575 /* UniqueID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniqueID.h; sourceTree = "<group>"; };
 		61323AF4194AF9EA00929575 /* UniqueID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniqueID.m; sourceTree = "<group>"; };
-		61323AFB194AFC2E00929575 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
-		61323AFC194AFC2E00929575 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
 		61323AFF194B073100929575 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -119,8 +115,6 @@
 		61323AF0194AF9EA00929575 /* UniqueID */ = {
 			isa = PBXGroup;
 			children = (
-				61323AFB194AFC2E00929575 /* OpenUDID.h */,
-				61323AFC194AFC2E00929575 /* OpenUDID.m */,
 				61323AF3194AF9EA00929575 /* UniqueID.h */,
 				61323AF4194AF9EA00929575 /* UniqueID.m */,
 				61323AF1194AF9EA00929575 /* Supporting Files */,
@@ -143,7 +137,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61323AFD194AFC2E00929575 /* OpenUDID.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +191,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				61323AF5194AF9EA00929575 /* UniqueID.m in Sources */,
-				61323AFE194AFC2E00929575 /* OpenUDID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
